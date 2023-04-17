@@ -1,0 +1,9 @@
+@ 1 0.2 SineEnv 0.1 864 0.05 0.267 0 962 555.5 188 551.5 
+@ 2 0.4 SineEnv 0.2 969.807 0.05 0.267 0 1154 555.5 188 551.5 
+@ 3 0.6 SineEnv 0.3 1027.47 0.05 0.267 0 1346 555.5 188 551.5 
+@ 4 1.1 SineEnv 0.4 440 0.15 0.267 -0.5 1056 831.25 188 275.75 
+@ 5 0.2 SineEnv 0.5 441 0.15 0.267 0.5 1440 831.25 188 275.75 
+@ 6 0.15 SineEnv 0.6 442 0.2 0.4 0 1632 831.25 188 275.75 
+@ 7 0.08 SineEnv 0.7 1221.88 0.055 0.267 0 1632 831.25 188 275.75 
+# SineEnv amplitude frequency attackTime releaseTime pan pianoKeyX pianoKeyY pianoKeyWidth pianoKeyHeight 
+#  amplitude frequency attackTime releaseTime pan pianoKeyX pianoKeyY pianoKeyWidth pianoKeyHeight 
