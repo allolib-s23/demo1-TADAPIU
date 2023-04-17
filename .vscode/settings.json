@@ -1,3 +1,10 @@
 {
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "deque": "cpp",
+        "format": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
+    }
 }

@@ -1,0 +1,9 @@
+@ 0 0.674677 SineEnv 0.3 261.626 0.1 0.1 0 
+@ 1.04801 0.725519 SineEnv 0.3 293.665 0.1 0.1 0 
+@ 2.14871 0.58326 SineEnv 0.3 329.628 0.1 0.1 0 
+@ 3.30019 0.141238 SineEnv 0.3 349.228 0.1 0.1 0 
+@ 3.80705 0.151501 SineEnv 0.3 391.995 0.1 0.1 0 
+@ 4.3735 0.151506 SineEnv 0.3 440 0.1 0.1 0 
+@ 4.9483 0.193174 SineEnv 0.3 493.883 0.1 0.1 0 
+# SineEnv amplitude frequency attackTime releaseTime pan 
+#  amplitude frequency attackTime releaseTime pan 

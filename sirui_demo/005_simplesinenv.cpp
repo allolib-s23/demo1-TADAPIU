@@ -118,7 +118,7 @@ public:
     imguiInit();
 
     // Play example sequence. Comment this line to start from scratch
-    // synthManager.synthSequencer().playSequence("synth1.synthSequence");
+    synthManager.synthSequencer().playSequence("test1.synthSequence");
     synthManager.synthRecorder().verbose(true);
   }
 
