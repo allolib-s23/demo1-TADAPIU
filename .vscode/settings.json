@@ -5,6 +5,23 @@
         "format": "cpp",
         "list": "cpp",
         "vector": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "bit": "cpp",
+        "charconv": "cpp",
+        "chrono": "cpp",
+        "condition_variable": "cpp",
+        "filesystem": "cpp",
+        "future": "cpp",
+        "iomanip": "cpp",
+        "limits": "cpp",
+        "mutex": "cpp",
+        "random": "cpp",
+        "variant": "cpp",
+        "xhash": "cpp",
+        "xlocale": "cpp",
+        "xlocinfo": "cpp",
+        "xloctime": "cpp",
+        "xtree": "cpp",
+        "*.def": "cpp"
     }
 }
