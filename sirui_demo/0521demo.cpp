@@ -750,7 +750,7 @@ public:
   {
     auto *voice = synthManager.synth().getVoice<SineEnv>();
     // amp, freq, attack, release, pan
-    vector<VariantValue> params = vector<VariantValue>({amp, freq, attack, release ,0.0});
+    vector<float> params = vector<float>({amp, freq, attack, release ,0.0});
     voice->setTriggerParams(params);
     synthManager.synthSequencer().addVoiceFromNow(voice, time, duration);
   }
@@ -759,7 +759,7 @@ public:
   {
     auto *voice = synthManager.synth().getVoice<SineEnv2>();
     // amp, freq, attack, release, pan
-    vector<VariantValue> params = vector<VariantValue>({amp, freq, attack, release ,0.0});
+    vector<float> params = vector<float>({amp, freq, attack, release ,0.0});
     voice->setTriggerParams(params);
     synthManager.synthSequencer().addVoiceFromNow(voice, time, duration);
   }
@@ -768,7 +768,7 @@ public:
   {
     auto *voice = synthManager.synth().getVoice<SineEnv3>();
     // amp, freq, attack, release, pan
-    vector<VariantValue> params = vector<VariantValue>({amp, freq, attack, release ,0.0});
+    vector<float> params = vector<float>({amp, freq, attack, release ,0.0});
     voice->setTriggerParams(params);
     synthManager.synthSequencer().addVoiceFromNow(voice, time, duration);
   }
@@ -777,7 +777,7 @@ public:
   {
     auto *voice = synthManager.synth().getVoice<SquareWave>();
     // amp, freq, attack, release, pan
-    vector<VariantValue> params = vector<VariantValue>({amp, freq, attack, release, 0.0});
+    vector<float> params = vector<float>({amp, freq, attack, release, 0.0});
     voice->setTriggerParams(params);
     synthManager.synthSequencer().addVoiceFromNow(voice, time, duration);
   }

@@ -829,6 +829,9 @@ public:
                                          // keyboard
       return true;
     }
+    // if (k.key() == 'a'){
+    //   playSong(1);
+    // }
     if (k.shift()) {
       // If shift pressed then keyboard sets preset
       int presetNumber = asciiToIndex(k.key());
@@ -870,7 +873,7 @@ public:
   {
     auto *voice = synthManager.synth().getVoice<SineEnv2>();
     // amp, freq, attack, release, pan
-    vector<VariantValue> params = vector<VariantValue>({amp, freq, attack, release ,0.0});
+    vector<float> params = vector<float>({amp, freq, attack, release ,0.0});
     voice->setTriggerParams(params);
     synthManager.synthSequencer().addVoiceFromNow(voice, time, duration);
   }
@@ -888,7 +891,7 @@ public:
   {
     auto *voice = synthManager.synth().getVoice<SquareWave>();
     // amp, freq, attack, release, pan
-    vector<VariantValue> params = vector<VariantValue>({amp, freq, attack, release, 0.0});
+    vector<float> params = vector<float>({amp, freq, attack, release, 0.0});
     voice->setTriggerParams(params);
     synthManager.synthSequencer().addVoiceFromNow(voice, time, duration);
   }
@@ -1216,10 +1219,10 @@ public:
   }
 
   void main_melody5(float time){
-    playSquareWave(Dsharp5, measure * 0 + beat * 0 + time, eigth);
-    playSquareWave(Dsharp5, measure * 0 + beat * 1 + time, eigth);
-    playSquareWave(Dsharp5, measure * 0 + beat * 2 + time, eigth);
-    playSquareWave(Dsharp5, measure * 0 + beat * 3 + time, eigth);
+    playSquareWave(Dsharp5, measure * 0 + beat * 0 + time, eigth, 0.09);
+    playSquareWave(Dsharp5, measure * 0 + beat * 1 + time, eigth, 0.08);
+    playSquareWave(Dsharp5, measure * 0 + beat * 2 + time, eigth, 0.07);
+    playSquareWave(Dsharp5, measure * 0 + beat * 3 + time, eigth, 0.06);
   }
 
   void bass1(float time){
@@ -1585,8 +1588,6 @@ public:
     playPluckString(G3,      measure * 8 + beat * 3 + time, eigth);
     playPluckString(Asharp3, measure *  + beat * 3.5 + time, eigth);
   }
-
-
 
   void SineEnv_bass1(float time){
     playSineEnv2(Gsharp2, measure * 1 + beat * 0 + time, eigth);
